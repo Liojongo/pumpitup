@@ -1,0 +1,180 @@
+amount_tsh: amount of water in the water point
+problem: 70% of 0 values
+option: drop column
+exercised: No Yet
+
+dat_recorded: date entered the data 
+problem: unparsed
+option: parsed by format: yyyy-MM-dd
+exercised: Yes
+
+funder: org or indiv who fund the well 
+problem: NAs and Spelling problem, 0 as NAs
+option: look for relationship between funders and installers
+exercised: (NA as NA, 0 as NA, done), correct spelling problem
+
+gps_height:  
+problem: NAs 
+option: estimate it by lon and lat
+exercised: Not yet
+
+installer: org who installed the well 
+problem: NAs and Spelling problem, 0 as NAs
+option: look for relationship between funders and installers
+exercised: (NA as NA, 0 as NA, done) , correct spelling problem
+
+Latitude: 
+problem: No
+option:
+exercised: 
+
+Longtitude: 
+problem: No
+option:
+exercised:
+
+wpt_name: 
+problem: NAs
+option:
+exercised: Logical value
+
+num_private: 
+problem: too many 0,98.7%
+option: drop column
+exercised: Not yet
+
+basin: 
+problem: No
+option:
+exercised: 
+
+subvillage: 
+problem: spelling mistake, NAs
+option: drop column or google api
+exercised: not yet
+
+region: 
+problem: No
+option:
+exercised: 
+
+region_code: 
+problem: No, somehow equivalent to region
+option:
+exercised: 
+
+district_code: 
+problem: No
+option:
+exercised: 
+
+lga: 
+problem: No
+option:
+exercised: 
+
+ward: 
+problem: No
+option:
+exercised: 
+
+population: population live around the well
+problem: 0 and 1 as NAs
+option:
+exercised: 
+
+public_meeting: 
+problem: 
+option: T/F changed to 0 and 1
+exercised: Yes
+
+recorded_by: 
+problem: one value
+option: drop
+exercised: yes
+
+scheme_name: who operate it 
+problem: too many distinct values and NAs
+option: to 0 and 1, has name or not
+exercised: 
+
+scheme_management: who operate it 
+problem: 
+option: could be categorical
+exercised: 
+
+scheme_management: who operate it 
+problem: repeated info
+option: drop
+exercised:
+
+permit: the water point is permit or not
+problem: NAs
+option: NAs as 0
+exercised: Yes
+
+Construction_Year:  
+problem: NAs
+option: bin it by decades
+exercised: yes
+
+Extraction_type:  
+problem: repeated info with extraction type class 
+option: rdrop
+exercised: yes
+
+Extraction_group:  
+problem: repeated info with extraction type class
+option:drop
+exercised: yes
+
+Extraction_type_class:  
+problem: 
+option: keep the top four, and group the rest in other
+exercised: yes
+
+Management:  
+problem:
+option: unkown to NA
+exercised: yes
+
+management_group:  
+problem: 
+option: change to user_group or not
+exercised: yes
+
+payment_type:  
+problem: 
+option: drop
+exercised: yes
+
+water_quality:  
+problem: 
+option: soft is 1, all others 0
+exercised: yes
+
+quality_group:  
+problem: repeated info
+option: drop
+exercised: yes
+
+qualntity:  
+problem: 
+option: change to ordinal
+exercised: yes
+
+quantity_group:  
+problem: repeated info
+option: drop
+exercised: yes
+
+source:  
+problem: repeated info
+option: drop
+exercised: yes
+
+source_class:  
+problem: 
+option: change to 1 or 0
+exercised: yes
+
